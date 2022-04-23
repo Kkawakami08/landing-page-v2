@@ -29,7 +29,7 @@ p {
   text-decoration: none;
 }
 
-.header h1 {
+.header h2 {
   color: var(--secondary-color);
   font-size: 1.5rem;
 }
@@ -42,9 +42,10 @@ p {
 .hero {
   display: flex;
   background-color: var(--main-color);
-  padding: 130px 150px;
+  padding: 100px 150px 130px 150px;
   gap: 80px;
   align-items: center;
+  justify-content: space-between;
 }
 
 .heroRight img {
@@ -58,9 +59,9 @@ p {
   align-items: start;
 }
 
-.heroLeft h2 {
+.heroLeft h1 {
   color: var(--secondary-color);
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 3rem;
 }
 
@@ -76,4 +77,57 @@ p {
   font-weight: bold;
   font-size: 1em;
   border-radius: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 250px 100px 250px;
+  gap: 50px;
+}
+
+.info h2 {
+  font-size: 2em;
+}
+
+.boxes {
+  display: flex;
+  gap: 60px;
+}
+
+.boxContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.boxContent p {
+  color: gray;
+}
+
+.boxContent img {
+  width: 150px;
+  border-radius: 10px;
+  border: var(--main-color) solid 5px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding: 120px 250px;
+  background-color: var(--tertiary-color);
+  gap: 20px;
+}
+
+.quote h1 {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 2.2em;
+}
+
+.quote h2 {
+  align-self: end;
 }
