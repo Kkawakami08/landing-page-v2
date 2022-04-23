@@ -149,3 +149,10 @@ p {
   font-size: 1em;
   border-radius: 10px;
 }
+
+.footer {
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+  padding: 40px;
+  text-align: center;
+}
