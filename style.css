@@ -14,6 +14,7 @@
 
 p {
   font-size: 1.2rem;
+  color: lightgray;
 }
 
 .header {
@@ -65,10 +66,6 @@ p {
   line-height: 3rem;
 }
 
-.heroLeft p {
-  color: var(--tertiary-color);
-}
-
 .heroBtn {
   background-color: var(--highlight-color);
   border: none;
@@ -87,6 +84,10 @@ p {
   gap: 50px;
 }
 
+.info p {
+  color: gray;
+}
+
 .info h2 {
   font-size: 2em;
 }
@@ -102,10 +103,6 @@ p {
   align-items: center;
   text-align: center;
   gap: 10px;
-}
-
-.boxContent p {
-  color: gray;
 }
 
 .boxContent img {
@@ -130,4 +127,25 @@ p {
 
 .quote h2 {
   align-self: end;
+}
+
+.cta {
+  background-color: var(--highlight-color);
+  margin: 100px 150px;
+  border-radius: 10px;
+  padding: 50px 130px;
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ctaBtn {
+  background-color: var(--highlight-color);
+  border: white solid 2px;
+  color: var(--secondary-color);
+  padding: 10px 40px;
+  font-weight: bold;
+  font-size: 1em;
+  border-radius: 10px;
 }
